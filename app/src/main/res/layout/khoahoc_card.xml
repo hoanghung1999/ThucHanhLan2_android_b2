@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:background="#71EAE0"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tenC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id-ItemName"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ngayC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dateOrder"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/chuyenNganhC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="chuyen nganh"
+                />
+            <TextView
+                android:id="@+id/kichhoatC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kich Hoat"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
